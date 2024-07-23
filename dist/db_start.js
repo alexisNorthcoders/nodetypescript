@@ -12,6 +12,6 @@ await populateDatabase((err) => {
         console.error("Failed to initialize the database", err);
     }
     else {
-        console.log("Database has been initialized successfully.");
+        console.log("Database has been populated successfully.");
     }
 });
